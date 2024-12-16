@@ -1,11 +1,15 @@
-import './App.css'
+import styles from './App.module.scss'
+import Item from '../Item'
 
 function App() {
 
   return (
     <>
-      <div>
-        TODO projekti
+      <div className={styles.app}>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
       </div>
     </>
   )
